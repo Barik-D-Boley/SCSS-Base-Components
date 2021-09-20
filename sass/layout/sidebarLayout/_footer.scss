@@ -1,4 +1,4 @@
-@import '../themes/theme';
+@import '../../themes/theme';
 
 .footer {
     background-color: $footer-background;
@@ -8,6 +8,10 @@
     top: 0;
     grid-column: 1 / span 2;
     grid-row: 3 / span 1;
+    p {
+        position: relative;
+        top: -12px;
+    }
 }
 #contactUs {
     text-decoration: none;
