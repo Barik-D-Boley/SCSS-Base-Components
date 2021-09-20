@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+h1 {
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline;
+}
+
+li {
+  float: right;
+}
+
+.footer {
+  background-color: #000000;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  top: 0;
+}
+
+#contactUs {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+#contactUs:hover {
+  color: #D8D8D8;
+}/*# sourceMappingURL=main.css.map */

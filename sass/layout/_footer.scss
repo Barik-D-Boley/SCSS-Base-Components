@@ -1,0 +1,16 @@
+@import '../themes/theme';
+
+.footer {
+    background-color: $footer-background;
+    color: $footer-text;
+    text-align: center;
+    position: relative;
+    top: 0;
+}
+#contactUs {
+    text-decoration: none;
+    color: $footer-text;
+    &:hover {
+        color: $footer-hover;
+    }
+}
