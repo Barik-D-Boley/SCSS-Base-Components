@@ -3,3 +3,10 @@
 @import './layout/sidebar';
 @import './layout/content';
 @import './layout/footer';
+
+.container {
+    border: 1px black solid;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 15% 83% 2%;
+}
