@@ -1,13 +1,12 @@
 @import '../../base/reset';
 @import './navbar';
-@import './sidebar';
 @import './content';
+@import './sidebar';
 @import './footer';
-@import '../../themes/theme';
 
 .container {
     display: grid;
-    grid-template-columns: 20% 80%;
+    grid-template-columns: 15% 70% 15%;
     grid-template-rows: 10% 88% 2%;
 }
 a {
